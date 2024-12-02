@@ -1,0 +1,326 @@
+body {
+  margin: 0px;
+}
+.header {
+  position: sticky;
+  justify-content: space-between;
+  top: 0px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0px 40px;
+  z-index: 99;
+  background-color: #101820;
+}
+
+.logo-gojek {
+  border-style: none;
+  max-width: 80%;
+  display: block;
+}
+.menus {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: Maison Neue Demi;
+}
+.menus a {
+  font-size: 15px;
+  font-weight: lighter;
+  color: white;
+  text-decoration: none;
+}
+.menus a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hero-section {
+  width: 100%;
+  height: 747px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  top: 0px;
+  left: 0px;
+  background-position: center center;
+  display: block;
+  z-index: 0;
+  background-image: url(https://cdn-site.gojek.com/uploads/hero_b18c33ed07.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.hero-section img {
+  margin-top: -60px;
+  padding-top: 0px;
+  padding-bottom: 60px;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  object-fit: cover;
+  display: block;
+}
+.headline {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.headline h1 {
+  font-family: Maison Neue Extended Extra Bold;
+  color: white;
+  font-size: 35px;
+  width: 67.67%;
+  line-height: 64px;
+  letter-spacing: 0.8px;
+}
+
+.introduction {
+  width: 100%;
+  background-color: rgb(17, 24, 32);
+  height: 230px;
+  margin-top: -4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 17px;
+}
+.introduction h1 {
+  font-size: 38px;
+  text-align: center;
+  width: 65.65%;
+  margin-bottom: 12px;
+  letter-spacing: 0.9px;
+  color: white;
+  font-family: Maison Neue Extended Extra Bold;
+}
+.join-button {
+  font-family: Maison Neue Demi;
+  height: 43px;
+  width: fit-content;
+  padding-left: 23px;
+  padding-right: 23px;
+  line-height: 20px;
+  border-radius: 93px;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  color: white;
+  background-color: #00880d;
+  text-decoration: none;
+}
+.section-2 {
+  position: relative;
+}
+
+.divider1 {
+  top: 0;
+  width: 100%;
+  height: 165px;
+  display: flex;
+  position: static;
+  align-items: flex-end;
+  background-color: rgb(16 24 32);
+}
+.divider2 {
+  border-top-left-radius: 96px;
+  border-top-right-radius: 96px;
+  width: 100%;
+  height: 95px;
+  position: absolute;
+  background-color: white;
+}
+.divider3 {
+  position: relative;
+  width: 100%;
+  height: 120x;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  scroll-margin: 40px;
+  position: relative;
+}
+
+.recognition {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -165px;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 2;
+  display: block;
+  position: relative;
+}
+.recognition-section {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  box-sizing: content-box;
+  justify-content: center;
+  flex-wrap: nowrap;
+  display: flex;
+  position: relative;
+}
+.recognition-divider {
+  height: auto;
+  width: 18vw;
+  margin-right: 30px;
+  padding-bottom: 48px;
+  display: block;
+  flex-shrink: 0;
+  position: relative;
+}
+.achievement {
+  padding-left: 0px;
+  padding-right: 0px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.achievement h2 {
+  color: black;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 7px;
+  text-align: center;
+  font-family: Maison Neue Extended Extra Bold;
+}
+.achievement-content {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0px;
+  position: relative;
+  font-family: Maison Neue Light;
+}
+.section-3 {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  justify-content: center;
+  scroll-margin: 40px;
+  display: flex;
+  background-color: white;
+}
+.scale-title h1 {
+  font-family: Maison Neue Demi;
+}
+.section-3 h1 {
+  line-height: 60px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  margin-bottom: 11px;
+  font-size: 45px;
+  color: black;
+  font-family: Maison Neue Extended Extra Bold;
+}
+
+.scale {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin: auto;
+  margin-top: 66px;
+  width: 80%;
+  height: 80%;
+  display: block;
+  background-color: white;
+}
+.scale-section {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 35px;
+  display: grid;
+}
+.scale-divider {
+  width: 230px;
+  height: 300px;
+  display: flex;
+  padding-bottom: 48px;
+  margin-right: 30px;
+}
+.divider4 h2 {
+  font-size: 30px;
+  line-height: 7px;
+  font-weight: inherit;
+  padding-top: 10px;
+  padding: 0px 20px 0px;
+  text-align: left;
+  font-family: Maison Neue extended extra bold;
+}
+.divider4 p {
+  font-size: 12px;
+  margin-top: 12px;
+  margin: 11px;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20%;
+  padding-bottom: 20px;
+  text-align: left;
+  font-family: Maison Neue Light;
+}
+.scale-pic {
+  width: 100%;
+  height: auto;
+  transform: translateY(-70px);
+}
+.scale-install {
+  height: auto;
+  width: 100%;
+  border-radius: 40px;
+  flex-direction: column;
+  display: flex;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-shadow: 0 0 32px 10px #b2e5b8;
+  --tw-shadow-colored: 0 0 32px 10px var(--tw-shadow-color);
+  background-color: rgb(124, 204, 108);
+}
+.scale-driver {
+  height: auto;
+  width: 100%;
+  border-radius: 40px;
+  flex-direction: column;
+  display: flex;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-shadow: 0px 0px 32px 10px #e7b7cf;
+  --tw-shadow-colored: 0px 0px 32px 10px var(--tw-shadow-color);
+  background-color: rgb(212 139 200);
+}
+.scale-gofood {
+  height: auto;
+  width: 100%;
+  border-radius: 40px;
+  flex-direction: column;
+  display: flex;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-shadow: 0px 0px 32px 10px #f3c897;
+  --tw-shadow-colored: 0px 0px 32px 10px var(--tw-shadow-color);
+  background-color: rgb(255 174 98);
+}
+.scale-year {
+  height: auto;
+  width: 100%;
+  flex-direction: column;
+  border-radius: 40px;
+  display: flex;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-shadow: 0px 0px 32px 10px #b2e6f2;
+  --tw-shadow-colored: 0px 0px 32px 10px var(--tw-shadow-color);
+  background-color: rgb(74 201 227);
+}
